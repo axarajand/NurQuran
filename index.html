@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/styles.css">
+    <link rel="stylesheet" href="src/style/styles-responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="src/img/icon_bulansabit.png" type="image/x-icon">
+    <script src="src/script/script.js"></script>
+    <title>NurQuran</title>
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <img src="src/img/logo_nurquran.png" alt="Nur Quran">
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#guru">Guru</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="content">
+            <section class="content-item">
+                <div class="content-description">
+                    <h1 class="title">Jangan Lupa Ngaji Hari Ini Ya!</h1>
+                    <p>Belajar mengaji tidak pernah terlambat, setiap orang bisa memulainya dari sekarang. NurQuran hadir sebagai platform pendidikan islam yang membantu menghasilkan Hafidz/Hafizah. Semua demi kebaikan umat Muslim agar menjadi yang terdepan.</p>
+                    <button>Belajar Sekarang</button>
+                </div>
+                <div class="content-image">
+                    <img src="src/img/ilustrasi_mengaji.png" alt="Dicoding Indonesia">
+                </div>
+            </section>
+            
+            <section class="content-item" id="fitur" style="flex-direction: column;">
+                <h1 class="title-content">Fitur</h1>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="src/img/ilustrasi_quran.png" alt="Bacaan Al-Quran Lengkap">
+                        <div class="text">Bacaan Al-Quran Lengkap</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                        <img src="src/img/ilustrasi_guru.png" alt="Ditemani Guru Ngaji Profesional">
+                        <div class="text">Ditemani Guru Ngaji Profesional</div>
+                    </div>
+                
+                    <div class="mySlides fade">
+                        <img src="src/img/ilustrasi_zakat.png" alt="Menerima Zakat">
+                        <div class="text">Menerima Zakat</div>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </section>
+            
+            <section class="content-item" id="guru" style="flex-direction: column;">
+                <h1 class="title-content">Guru</h1>
+                <div class="content-item" id="guru">
+                    <div class="card">
+                        <img src="src/img/avatar_1.jpg" alt="Ust. Abdul Gofur" style="width:100%">
+                        <div class="container">
+                            <h4><b>Ust. Abdul Gofur</b></h4>
+                            <p>Guru Ngaji</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="src/img/avatar_2.png" alt="Ust. Nurul Hidayah" style="width:100%">
+                        <div class="container">
+                            <h4><b>Ust. Nurul Hidayah</b></h4>
+                            <p>Guru Ngaji</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="src/img/avatar_1.jpg" alt="Ust. Mahfud Karunia" style="width:100%">
+                        <div class="container">
+                            <h4><b>Ust. Mahfud Karunia</b></h4>
+                            <p>Guru Ngaji</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+            <section class="content-item" id="kontak" style="flex-direction: column;">
+                <h1 class="title-content">Kontak</h1>
+                <div class="content-item">
+                    <div class="card" style="text-align: center;">
+                        <img src="src/img/avatar_me.png" alt="John" style="width:100%">
+                        <h1>Axa Rajandrya</h1>
+                        <p>Web Developer</p>
+                        <p>Universitas Nusa Putra</p>
+                      </div>
+                </div>
+            </section>
+        </article>
+        
+        <aside>
+            <div class="social-media">
+                <ul>
+                    <li><a href="https://www.youtube.com/@ardroid2718" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/axarajand" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/axarajandrya" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/people/Axa-Rajandrya/100093833710223/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>Pembuat: Axa Rajandrya</p>
+        <p><a href="mailto:axarajand@gmail.com" style="color: black;">axarajand@gmail.com</a></p>
+    </footer>
+</body>
+</html>

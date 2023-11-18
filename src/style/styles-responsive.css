@@ -1,0 +1,57 @@
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    body {
+      background-size: contain;
+    }
+  
+    header.navbar-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header.navbar-container .logo img {
+      width: 150px;
+    }
+  
+    header.navbar-container .nav-list ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+ 
+    header.navbar-container .nav-list li a {
+      color: black;
+    }
+  
+    main {
+      padding: 2rem;
+    }
+  
+    main .content {
+      text-align: center;
+    }
+  
+    main .content-item {
+      flex-direction: column; 
+      margin-bottom: 5rem;
+    }
+  
+    main .content-item .content-description .title,
+    main .content-item .title-content {
+      font-size: 2.5rem; 
+    }
+  
+    main .content-item .content-description button {
+      padding: 0.8rem 2rem; 
+      font-size: 1rem;
+    }
+  
+    main .content-item .content-image img {
+      width: 100%; 
+    }
+  
+    main aside {
+      display: none;
+    }
+  }
+  
